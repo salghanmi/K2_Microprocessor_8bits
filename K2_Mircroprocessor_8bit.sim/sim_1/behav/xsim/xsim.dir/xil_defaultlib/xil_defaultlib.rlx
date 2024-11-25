@@ -1,0 +1,18 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sim_1/new/TB_K2P.sv,1732536286,systemVerilog,,,,TB_K2P,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sim_1/new/tb_Control_logic.sv,1732195486,systemVerilog,,,,tb_Control_logic,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sim_1/new/tb_Decoder.sv,1732195282,systemVerilog,,,,tb_Decoder,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/ALU.sv,1732385819,systemVerilog,,/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Control_Logic.sv,,ALU,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Control_Logic.sv,1732525408,systemVerilog,,/home/it/LAB4_DSD/LAB4_DSD.srcs/sources_1/new/D_FF.sv,,Control_Logic,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Data_Memory.sv,1732538248,systemVerilog,,/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Decoder.sv,,Data_Memory,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Decoder.sv,1732222404,systemVerilog,,/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/K2_Microprocessor.sv,,Decoder,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/K2_Microprocessor.sv,1732538277,systemVerilog,,/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Multiplexers.sv,,K2_Microprocessor,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Multiplexers.sv,1732435110,systemVerilog,,/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Program_Counter.sv,,Multiplexers,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Program_Counter.sv,1732533488,systemVerilog,,/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/ROM.sv,,Program_Counter,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/ROM.sv,1732536145,systemVerilog,,/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Register.sv,,ROM,,,,,,,,
+/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Register.sv,1732221652,systemVerilog,,/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sim_1/new/TB_K2P.sv,,Register,,,,,,,,
+/home/it/LAB4_DSD/LAB4_DSD.srcs/sources_1/new/D_FF.sv,1732435119,systemVerilog,,/home/it/K2_Mircroprocessor_8bit/K2_Mircroprocessor_8bit.srcs/sources_1/new/Data_Memory.sv,,D_FF,,,,,,,,

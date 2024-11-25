@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../K2_Mircroprocessor_8bit.srcs/sources_1/new/Decoder.sv" \
+"../../../../K2_Mircroprocessor_8bit.srcs/sim_1/new/tb_Decoder.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
