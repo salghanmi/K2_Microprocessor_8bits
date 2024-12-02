@@ -17,7 +17,8 @@
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
-//////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+
 module K2_Microprocessor #(
     parameter PC_N = 4,           // Width of the program counter (address bits)
     parameter INSTR_N = 8,        // Width of instructions from ROM
@@ -37,7 +38,7 @@ module K2_Microprocessor #(
     // Internal signals
     wire [PC_N-1:0] program_counter;      // Program counter output
     wire [INSTR_N-1:0] instruction;       // Instruction fetched from ROM
-    reg j_i, jc_i, j , jc ;                           // Jump control signals
+    reg j_i, jc_i, j , jc, jz ;                           // Jump control signals
     wire [REG_ADDR_WIDTH-1:0] reg_addr;   // Register address (D)
     wire Sreg, S;                         // ALU and Mux control signals
     wire [2:0] imm;                       // Immediate value
@@ -50,7 +51,7 @@ module K2_Microprocessor #(
     wire load;                            // Load signal for program counter
     reg load_sync;
     wire [REG_A_B_O_WIDTH-1:0] data_mem_out; // Data Memory output
-    wire [1:0] mem_en;                    // Memory enable signals
+    wire  mem_read, mem_write;                    // Memory enable signals
 
     // Program Counter
     Program_Counter #(
@@ -80,8 +81,10 @@ module K2_Microprocessor #(
         .D(reg_addr),              // Register address
         .Sreg(Sreg),               // Mux select
         .S(S),                     // ALU operation selector
-        .imm(imm),                  // Immediate value
-        .mem_en(mem_en)            // Memory enable signals =======================================
+        .imm(imm),  
+        .jz(jz),                // Immediate value
+        .mem_read(mem_read),            // Memory enable signals =======================================
+        .mem_write(mem_write)
     );
 
     // Register Write Decoder
@@ -127,7 +130,7 @@ module K2_Microprocessor #(
     );
 
     
-     D_FF dff_inst(
+     D_FF #(.n(1))dff_inst(
      .d(carry) , 
      .reset(reset), 
     .enable(1'b1), 
@@ -150,9 +153,9 @@ module K2_Microprocessor #(
     Multiplexers #(
         .N(REG_A_B_O_WIDTH)
     ) Mux2_inst (
-        .b(Mux1_out), // Mux 1 output 
-        .a(data_mem_out),                            // Memory Data out
-        .select(mem_en[1]),                          // Mux select
+        .a(Mux1_out), // Mux 1 output 
+        .b(data_mem_out),                            // Memory Data out
+        .select(~mem_read),                          // Mux select
         .OUT(Mux2_out)                           // Mux output
     );
     
@@ -177,7 +180,7 @@ module K2_Microprocessor #(
         .clk(clk),
         .imm(imm),                // Address input
         .reset(reset),
-        .mem_en(mem_en),          // Memory enable signals [0] for read, [1] for write
+        .mem_en(mem_write),          // Memory enable signals [0] for read, [1] for write
         .data_in(RA_out),         // Data input for store operation
         .data_out(data_mem_out)   // Data output for load operation
     );
@@ -185,8 +188,9 @@ module K2_Microprocessor #(
     // Load Signal Logic
     assign j = j_i & ~jc_i; 
     assign jc = jc_i & ~j_i;
-    
-    assign load = j || (Dff_out && jc); // Load if unconditional or conditional jump
+    logic Is_ALU_0 ;
+    assign Is_ALU_0 = (ALU_out == 0) ? 1'b1: 1'b0; 
+    assign load = j || (Dff_out && jc) || (jz && Is_ALU_0); // Load if unconditional or conditional jump
     assign write_enable = ~(j || jc);  // Disable writes during jumps
     
 
@@ -202,5 +206,3 @@ always @(posedge clk ) begin
 end
 
 endmodule
-
-

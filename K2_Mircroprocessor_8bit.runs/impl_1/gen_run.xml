@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1732458221">
-  <File Type="ROUTE-TIMING-PB" Name="TOP_K2_timing_summary_routed.pb"/>
-  <File Type="PA-TCL" Name="TOP_K2.tcl"/>
-  <File Type="BITSTR-MSK" Name="TOP_K2.msk"/>
   <File Type="BG-BIN" Name="TOP_K2.bin"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="TOP_K2_routed_bb.dcp"/>
   <File Type="BG-BGN" Name="TOP_K2.bgn"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="TOP_K2_postplace_pwropt.dcp"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="TOP_K2_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BITSTR-RBT" Name="TOP_K2.rbt"/>
+  <File Type="REPORTS-TCL" Name="TOP_K2_reports.tcl"/>
   <File Type="ROUTE-DCP" Name="TOP_K2_routed.dcp"/>
   <File Type="PHYSOPT-DCP" Name="TOP_K2_physopt.dcp"/>
-  <File Type="REPORTS-TCL" Name="TOP_K2_reports.tcl"/>
-  <File Type="BITSTR-RBT" Name="TOP_K2.rbt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TOP_K2_timing_summary_routed.pb"/>
+  <File Type="PA-TCL" Name="TOP_K2.tcl"/>
+  <File Type="BITSTR-MSK" Name="TOP_K2.msk"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TOP_K2_incremental_reuse_pre_placed.rpt"/>
   <File Type="OPT-DCP" Name="TOP_K2_opt.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="TOP_K2_routed_error.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TOP_K2_postplace_pwropt.dcp"/>
   <File Type="BG-DRC" Name="TOP_K2.drc"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TOP_K2_routed_error.dcp"/>
   <File Type="OPT-HWDEF" Name="TOP_K2.hwdef"/>
   <File Type="BG-BIT" Name="TOP_K2.bit"/>
   <File Type="PLACE-DCP" Name="TOP_K2_placed.dcp"/>

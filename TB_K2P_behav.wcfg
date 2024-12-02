@@ -11,364 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="314200001fs"></ZoomEndTime>
-      <Cursor1Time time="15000000fs"></Cursor1Time>
+      <ZoomStartTime time="108971665200fs"></ZoomStartTime>
+      <ZoomEndTime time="109706665201fs"></ZoomEndTime>
+      <Cursor1Time time="127100000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="135"></NameColumnWidth>
-      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+      <NameColumnWidth column_width="251"></NameColumnWidth>
+      <ValueColumnWidth column_width="67"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="111" />
-   <wvobject type="logic" fp_name="/TB_K2P/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/reset">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/rom_data">
-      <obj_property name="ElementShortName">rom_data[7:0]</obj_property>
-      <obj_property name="ObjectShortName">rom_data[7:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RA_out">
-      <obj_property name="ElementShortName">RA_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RA_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RB_out">
-      <obj_property name="ElementShortName">RB_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RB_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RO_out">
-      <obj_property name="ElementShortName">RO_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RO_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/Mux2_out">
-      <obj_property name="ElementShortName">Mux2_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">Mux2_out[7:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/Mux1_out">
-      <obj_property name="ElementShortName">Mux1_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">Mux1_out[7:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/imm">
-      <obj_property name="ElementShortName">imm[2:0]</obj_property>
-      <obj_property name="ObjectShortName">imm[2:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_inst/data_out">
-      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/program_counter">
-      <obj_property name="ElementShortName">program_counter[3:0]</obj_property>
-      <obj_property name="ObjectShortName">program_counter[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/PC_N">
-      <obj_property name="ElementShortName">PC_N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">PC_N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/INSTR_N">
-      <obj_property name="ElementShortName">INSTR_N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">INSTR_N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/REG_ADDR_WIDTH">
-      <obj_property name="ElementShortName">REG_ADDR_WIDTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">REG_ADDR_WIDTH[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/REG_A_B_O_WIDTH">
-      <obj_property name="ElementShortName">REG_A_B_O_WIDTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">REG_A_B_O_WIDTH[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/control_logic_inst/instruction">
-      <obj_property name="ElementShortName">instruction[7:0]</obj_property>
-      <obj_property name="ObjectShortName">instruction[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/control_logic_inst/j">
-      <obj_property name="ElementShortName">j</obj_property>
-      <obj_property name="ObjectShortName">j</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/control_logic_inst/jc">
-      <obj_property name="ElementShortName">jc</obj_property>
-      <obj_property name="ObjectShortName">jc</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/control_logic_inst/D">
-      <obj_property name="ElementShortName">D[1:0]</obj_property>
-      <obj_property name="ObjectShortName">D[1:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/control_logic_inst/Sreg">
-      <obj_property name="ElementShortName">Sreg</obj_property>
-      <obj_property name="ObjectShortName">Sreg</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/control_logic_inst/S">
-      <obj_property name="ElementShortName">S</obj_property>
-      <obj_property name="ObjectShortName">S</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/control_logic_inst/imm">
-      <obj_property name="ElementShortName">imm[2:0]</obj_property>
-      <obj_property name="ObjectShortName">imm[2:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/alu_inst/a">
-      <obj_property name="ElementShortName">a[7:0]</obj_property>
-      <obj_property name="ObjectShortName">a[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/alu_inst/b">
-      <obj_property name="ElementShortName">b[7:0]</obj_property>
-      <obj_property name="ObjectShortName">b[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/alu_inst/s">
-      <obj_property name="ElementShortName">s</obj_property>
-      <obj_property name="ObjectShortName">s</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/alu_inst/out">
-      <obj_property name="ElementShortName">out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/alu_inst/N">
-      <obj_property name="ElementShortName">N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/PC_inst/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/PC_inst/reset">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/PC_inst/load">
-      <obj_property name="ElementShortName">load</obj_property>
-      <obj_property name="ObjectShortName">load</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/PC_inst/load_value">
-      <obj_property name="ElementShortName">load_value[3:0]</obj_property>
-      <obj_property name="ObjectShortName">load_value[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/PC_inst/pc">
-      <obj_property name="ElementShortName">pc[3:0]</obj_property>
-      <obj_property name="ObjectShortName">pc[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/PC_inst/N">
-      <obj_property name="ElementShortName">N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/decoder_inst/D">
-      <obj_property name="ElementShortName">D[1:0]</obj_property>
-      <obj_property name="ObjectShortName">D[1:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/decoder_inst/write_enable">
-      <obj_property name="ElementShortName">write_enable</obj_property>
-      <obj_property name="ObjectShortName">write_enable</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/decoder_inst/en_RA">
-      <obj_property name="ElementShortName">en_RA</obj_property>
-      <obj_property name="ObjectShortName">en_RA</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/decoder_inst/en_RB">
-      <obj_property name="ElementShortName">en_RB</obj_property>
-      <obj_property name="ObjectShortName">en_RB</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/decoder_inst/en_RO">
-      <obj_property name="ElementShortName">en_RO</obj_property>
-      <obj_property name="ObjectShortName">en_RO</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/reset">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/rom_data">
-      <obj_property name="ElementShortName">rom_data[7:0]</obj_property>
-      <obj_property name="ObjectShortName">rom_data[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RA_out">
-      <obj_property name="ElementShortName">RA_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RA_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RB_out">
-      <obj_property name="ElementShortName">RB_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RB_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RO_out">
-      <obj_property name="ElementShortName">RO_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RO_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/PC_N">
-      <obj_property name="ElementShortName">PC_N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">PC_N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/INSTR_N">
-      <obj_property name="ElementShortName">INSTR_N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">INSTR_N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/REG_ADDR_WIDTH">
-      <obj_property name="ElementShortName">REG_ADDR_WIDTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">REG_ADDR_WIDTH[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/REG_A_B_O_WIDTH">
-      <obj_property name="ElementShortName">REG_A_B_O_WIDTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">REG_A_B_O_WIDTH[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/reset">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/rom_data">
-      <obj_property name="ElementShortName">rom_data[7:0]</obj_property>
-      <obj_property name="ObjectShortName">rom_data[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RA_out">
-      <obj_property name="ElementShortName">RA_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RA_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RB_out">
-      <obj_property name="ElementShortName">RB_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RB_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RO_out">
-      <obj_property name="ElementShortName">RO_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RO_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/PC_N">
-      <obj_property name="ElementShortName">PC_N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">PC_N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/INSTR_N">
-      <obj_property name="ElementShortName">INSTR_N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">INSTR_N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/REG_ADDR_WIDTH">
-      <obj_property name="ElementShortName">REG_ADDR_WIDTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">REG_ADDR_WIDTH[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/REG_A_B_O_WIDTH">
-      <obj_property name="ElementShortName">REG_A_B_O_WIDTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">REG_A_B_O_WIDTH[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/PC_inst/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/PC_inst/reset">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/PC_inst/load">
-      <obj_property name="ElementShortName">load</obj_property>
-      <obj_property name="ObjectShortName">load</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/PC_inst/load_value">
-      <obj_property name="ElementShortName">load_value[3:0]</obj_property>
-      <obj_property name="ObjectShortName">load_value[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/PC_inst/pc">
-      <obj_property name="ElementShortName">pc[3:0]</obj_property>
-      <obj_property name="ObjectShortName">pc[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/PC_inst/N">
-      <obj_property name="ElementShortName">N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/PC_inst/WRAP_AROUND">
-      <obj_property name="ElementShortName">WRAP_AROUND[3:0]</obj_property>
-      <obj_property name="ObjectShortName">WRAP_AROUND[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/reset">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/rom_data">
-      <obj_property name="ElementShortName">rom_data[7:0]</obj_property>
-      <obj_property name="ObjectShortName">rom_data[7:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RA_out">
-      <obj_property name="ElementShortName">RA_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RA_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RB_out">
-      <obj_property name="ElementShortName">RB_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RB_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/RO_out">
-      <obj_property name="ElementShortName">RO_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">RO_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/PC_N">
-      <obj_property name="ElementShortName">PC_N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">PC_N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/INSTR_N">
-      <obj_property name="ElementShortName">INSTR_N[31:0]</obj_property>
-      <obj_property name="ObjectShortName">INSTR_N[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/REG_ADDR_WIDTH">
-      <obj_property name="ElementShortName">REG_ADDR_WIDTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">REG_ADDR_WIDTH[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/REG_A_B_O_WIDTH">
-      <obj_property name="ElementShortName">REG_A_B_O_WIDTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">REG_A_B_O_WIDTH[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
+   <WVObjectSize size="40" />
    <wvobject type="logic" fp_name="/TB_K2P/uut/clk">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -377,35 +28,65 @@
       <obj_property name="ElementShortName">reset</obj_property>
       <obj_property name="ObjectShortName">reset</obj_property>
    </wvobject>
+   <wvobject type="array" fp_name="/TB_K2P/uut/program_counter">
+      <obj_property name="ElementShortName">program_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">program_counter[3:0]</obj_property>
+   </wvobject>
    <wvobject type="array" fp_name="/TB_K2P/uut/rom_data">
       <obj_property name="ElementShortName">rom_data[7:0]</obj_property>
       <obj_property name="ObjectShortName">rom_data[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_K2P/uut/en_RB">
+      <obj_property name="ElementShortName">en_RB</obj_property>
+      <obj_property name="ObjectShortName">en_RB</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_K2P/uut/en_RO">
+      <obj_property name="ElementShortName">en_RO</obj_property>
+      <obj_property name="ObjectShortName">en_RO</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_K2P/uut/imm">
+      <obj_property name="ElementShortName">imm[2:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_out">
+      <obj_property name="ElementShortName">data_mem_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_K2P/uut/Mux2_out">
+      <obj_property name="ElementShortName">Mux2_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Mux2_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_K2P/uut/ALU_out">
+      <obj_property name="ElementShortName">ALU_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_K2P/uut/Mux1_out">
+      <obj_property name="ElementShortName">Mux1_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Mux1_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_K2P/uut/en_RA">
+      <obj_property name="ElementShortName">en_RA</obj_property>
+      <obj_property name="ObjectShortName">en_RA</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_K2P/uut/mem_read">
+      <obj_property name="ElementShortName">mem_read</obj_property>
+      <obj_property name="ObjectShortName">mem_read</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/TB_K2P/uut/RA_out">
       <obj_property name="ElementShortName">RA_out[7:0]</obj_property>
       <obj_property name="ObjectShortName">RA_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/TB_K2P/uut/RB_out">
       <obj_property name="ElementShortName">RB_out[7:0]</obj_property>
       <obj_property name="ObjectShortName">RB_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/TB_K2P/uut/RO_out">
       <obj_property name="ElementShortName">RO_out[7:0]</obj_property>
       <obj_property name="ObjectShortName">RO_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/program_counter">
-      <obj_property name="ElementShortName">program_counter[3:0]</obj_property>
-      <obj_property name="ObjectShortName">program_counter[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/TB_K2P/uut/instruction">
       <obj_property name="ElementShortName">instruction[7:0]</obj_property>
       <obj_property name="ObjectShortName">instruction[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/TB_K2P/uut/j">
       <obj_property name="ElementShortName">j</obj_property>
@@ -418,7 +99,6 @@
    <wvobject type="array" fp_name="/TB_K2P/uut/reg_addr">
       <obj_property name="ElementShortName">reg_addr[1:0]</obj_property>
       <obj_property name="ObjectShortName">reg_addr[1:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/TB_K2P/uut/Sreg">
       <obj_property name="ElementShortName">Sreg</obj_property>
@@ -427,11 +107,6 @@
    <wvobject type="logic" fp_name="/TB_K2P/uut/S">
       <obj_property name="ElementShortName">S</obj_property>
       <obj_property name="ObjectShortName">S</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/imm">
-      <obj_property name="ElementShortName">imm[2:0]</obj_property>
-      <obj_property name="ObjectShortName">imm[2:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/TB_K2P/uut/write_enable">
       <obj_property name="ElementShortName">write_enable</obj_property>
@@ -449,14 +124,21 @@
       <obj_property name="ElementShortName">en_RO</obj_property>
       <obj_property name="ObjectShortName">en_RO</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/ALU_out">
-      <obj_property name="ElementShortName">ALU_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">ALU_out[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   <wvobject type="array" fp_name="/TB_K2P/uut/Mux1_out">
+      <obj_property name="ElementShortName">Mux1_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Mux1_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_K2P/uut/Mux2_out">
+      <obj_property name="ElementShortName">Mux2_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Mux2_out[7:0]</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/TB_K2P/uut/carry">
       <obj_property name="ElementShortName">carry</obj_property>
       <obj_property name="ObjectShortName">carry</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_K2P/uut/Dff_out">
+      <obj_property name="ElementShortName">Dff_out</obj_property>
+      <obj_property name="ObjectShortName">Dff_out</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/TB_K2P/uut/load">
       <obj_property name="ElementShortName">load</obj_property>
@@ -466,62 +148,36 @@
       <obj_property name="ElementShortName">load_sync</obj_property>
       <obj_property name="ObjectShortName">load_sync</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/Dff_out">
-      <obj_property name="ElementShortName">Dff_out</obj_property>
-      <obj_property name="ObjectShortName">Dff_out</obj_property>
+   <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_out">
+      <obj_property name="ElementShortName">data_mem_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_out[7:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/Mux2_out">
-      <obj_property name="ElementShortName">Mux2_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">Mux2_out[7:0]</obj_property>
+   <wvobject type="array" fp_name="/TB_K2P/uut/PC_N">
+      <obj_property name="ElementShortName">PC_N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_N[31:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/Mux1_out">
-      <obj_property name="ElementShortName">Mux1_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">Mux1_out[7:0]</obj_property>
+   <wvobject type="array" fp_name="/TB_K2P/uut/INSTR_N">
+      <obj_property name="ElementShortName">INSTR_N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INSTR_N[31:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/mem_en">
-      <obj_property name="ElementShortName">mem_en[1:0]</obj_property>
-      <obj_property name="ObjectShortName">mem_en[1:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
+   <wvobject type="array" fp_name="/TB_K2P/uut/REG_ADDR_WIDTH">
+      <obj_property name="ElementShortName">REG_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_ADDR_WIDTH[31:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_inst/memory">
-      <obj_property name="ElementShortName">memory[0:7][7:0]</obj_property>
-      <obj_property name="ObjectShortName">memory[0:7][7:0]</obj_property>
+   <wvobject type="array" fp_name="/TB_K2P/uut/REG_A_B_O_WIDTH">
+      <obj_property name="ElementShortName">REG_A_B_O_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_A_B_O_WIDTH[31:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/data_mem_inst/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/TB_K2P/uut/data_mem_inst/reset">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_inst/imm">
-      <obj_property name="ElementShortName">imm[2:0]</obj_property>
-      <obj_property name="ObjectShortName">imm[2:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_inst/mem_en">
-      <obj_property name="ElementShortName">mem_en[1:0]</obj_property>
-      <obj_property name="ObjectShortName">mem_en[1:0]</obj_property>
-      <obj_property name="isExpanded"></obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_inst/data_in">
-      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
-      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_inst/data_out">
-      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   <wvobject type="array" fp_name="/TB_K2P/uut/WRAP_AROUND">
+      <obj_property name="ElementShortName">WRAP_AROUND[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WRAP_AROUND[3:0]</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_inst/memory">
       <obj_property name="ElementShortName">memory[0:7][7:0]</obj_property>
       <obj_property name="ObjectShortName">memory[0:7][7:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_inst/DATA_WIDTH">
-      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/TB_K2P/uut/data_mem_inst/ADDR_WIDTH">
-      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   <wvobject type="logic" fp_name="/TB_K2P/uut/mem_write">
+      <obj_property name="ElementShortName">mem_write</obj_property>
+      <obj_property name="ObjectShortName">mem_write</obj_property>
    </wvobject>
 </wave_config>

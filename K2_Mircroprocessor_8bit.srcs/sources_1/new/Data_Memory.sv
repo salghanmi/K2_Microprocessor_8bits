@@ -67,7 +67,7 @@ module Data_Memory#(
     input logic clk, 
     input logic reset,               // Reset signal for initialization
     input logic [ADDR_WIDTH-1:0] imm, // Address 
-    input logic [1:0] mem_en,        // mem_en[0] for read, mem_en[1] for write
+    input logic  mem_en,        // mem_en[0] for read, mem_en[1] for write
     input logic [DATA_WIDTH-1:0] data_in, // Data input for write operations
     output logic [DATA_WIDTH-1:0] data_out // Data output for read operations
 );
@@ -85,7 +85,7 @@ module Data_Memory#(
             for (int i = 2; i < (1 << ADDR_WIDTH); i = i + 1) begin
                 memory[i] <= 8'b00000000;
             end
-        end else if (mem_en[1]) begin
+        end else if (mem_en) begin
             // Store operation - write data to the specified address
             memory[imm] <= data_in;
         end
@@ -93,15 +93,56 @@ module Data_Memory#(
 
     // Memory read logic
     always_comb begin
-        if (mem_en[0]) begin
-            // Load operation - read data from the specified address
             data_out = memory[imm];
-        end else begin
-            data_out = '0; // Default value when memory is not enabled
-        end
     end
 
 endmodule
+
+// =======================================
+
+//module Data_Memory#(
+//    parameter DATA_WIDTH = 8,         // Width of the data in memory (default: 8 bits)
+//    parameter ADDR_WIDTH = 3          // Width of the address (default: 3 bits for 8 locations)
+//)(
+//    input logic clk, 
+//    input logic reset,               // Reset signal for initialization
+//    input logic [ADDR_WIDTH-1:0] imm, // Address 
+//    input logic [1:0] mem_en,        // mem_en[0] for read, mem_en[1] for write
+//    input logic [DATA_WIDTH-1:0] data_in, // Data input for write operations
+//    output logic [DATA_WIDTH-1:0] data_out // Data output for read operations
+//);
+
+//    // Define the memory array
+//    logic [DATA_WIDTH-1:0] memory [0:(1 << ADDR_WIDTH)-1]; // Memory array with 2^ADDR_WIDTH locations
+
+//    // Initialize memory on reset
+//    always_ff @(posedge clk) begin
+//        if (reset) begin
+//            // Initialize memory values on reset
+//            memory[0] <= 8'b00000000; // Set datamem[0] = 0
+//            memory[1] <= 8'b00000001; // Set datamem[1] = 1
+//            // Initialize the rest of the memory to 0
+//            for (int i = 2; i < (1 << ADDR_WIDTH); i = i + 1) begin
+//                memory[i] <= 8'b00000000;
+//            end
+//        end else if (mem_en[1]) begin
+//            // Store operation - write data to the specified address
+//            memory[imm] <= data_in;
+//        end
+//    end
+
+//    assign data_out= memory[imm];
+//    // Memory read logic
+////    always_comb begin
+////       // if (mem_en[0]) begin
+////            // Load operation - read data from the specified address
+////            data_out = memory[imm];
+////        //end else begin
+////            data_out = '0; // Default value when memory is not enabled
+////        end
+////    end
+
+//endmodule
 
 
 //module Data_Memory#(

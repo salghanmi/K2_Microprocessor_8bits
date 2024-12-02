@@ -12,7 +12,7 @@ Compiling module xil_defaultlib.ROM
 Compiling module xil_defaultlib.Control_Logic
 Compiling module xil_defaultlib.Decoder
 Compiling module xil_defaultlib.Register(n=8)
-Compiling module xil_defaultlib.D_FF
+Compiling module xil_defaultlib.D_FF(n=1)
 Compiling module xil_defaultlib.Multiplexers(N=8)
 Compiling module xil_defaultlib.ALU(N=8)
 Compiling module xil_defaultlib.Data_Memory
